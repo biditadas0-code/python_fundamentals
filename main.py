@@ -57,3 +57,17 @@ if __name__ == "__main__":
     print(f"\n--- Word Counter ---")
     print(f"Sentence: '{sample_text}'")
     print(f"Total Words: {count_words(sample_text)}")
+
+    # 4. Basic Data Structures (Lists & Dictionaries)
+def manage_inventory():
+    """Demonstrates basic operations with lists and dictionaries."""
+    items = ["apple", "banana", "cherry"]
+    prices = {"apple": 1.20, "banana": 0.50, "cherry": 2.00}
+    
+    print(f"Inventory Items: {items}")
+    print(f"Banana Price: ${prices['banana']}\n")
+
+if __name__ == "__main__":
+    # (Keep your existing code above, and add this at the very end:)
+    print("--- 4. Data Structures Test ---")
+    manage_inventory()

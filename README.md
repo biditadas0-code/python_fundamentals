@@ -6,4 +6,4 @@ A foundational collection of Python scripts demonstrating basic programming conc
 - Basic data types and variables
 - Control flow (loops and conditionals)
 - Functions and modular code
--
+- Working with lists and dictionaries 
